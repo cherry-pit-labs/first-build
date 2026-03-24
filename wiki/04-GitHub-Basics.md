@@ -53,18 +53,18 @@ The plus button in the top-right corner is where you create new things: reposito
 
 A repository is a project. It contains all of your project's files plus the entire history of changes. When you look at a repo on GitHub, you're seeing the latest version  - but every previous version is saved too.
 
-### Forking vs. Cloning
+### Templates and Cloning
 
-These are two ways to get a copy of someone else's project. You'll use both:
+These are two concepts you'll use to get started with this project:
 
-- **Forking** = Making your own copy of a project *on GitHub*. The fork lives on your GitHub account. You can change it without affecting the original.
+- **Template** = A starting-point repository. When you create a repo from a template, GitHub copies all the files into a brand-new repository on your account. Your copy is completely independent from the original.
 - **Cloning** = Downloading a repo from GitHub *to your computer* so you can work on it locally.
 
-The workflow: **Fork first** (copy it to your GitHub), then **clone your fork** (download it to your computer).
+The workflow: **Create from template** (get your own copy on GitHub), then **clone it** (download it to your computer).
 
 ## Don't Create a Repo Yet
 
-You might be tempted to click "New Repository" right now. Hold off  - in a few steps, you'll fork the First Build repo instead. That gives you the right starting point with all the tutorial files already in place.
+You might be tempted to click "New Repository" right now. Hold off - in a few steps, you'll create your own copy of the First Build repo from its template. That gives you the right starting point with all the tutorial files already in place.
 
 ### 🔒 Security Note
 

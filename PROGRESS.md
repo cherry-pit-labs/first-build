@@ -12,7 +12,7 @@
 - [ ] Node.js installed (via nvm)
 - [ ] npm working
 - [ ] Claude Code installed
-- [ ] Repository forked and cloned
+- [ ] Repository created from template and cloned
 - [ ] Setup script passed all checks
 
 ## Git Fundamentals

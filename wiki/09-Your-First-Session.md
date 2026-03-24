@@ -88,7 +88,7 @@ This signals Claude Code to wrap up the session. It will:
 - **Claude Code won't start:** Make sure you're in the `first-build` folder (`cd first-build`). Make sure Claude Code is installed (`claude --version`).
 - **Authentication issues:** Claude Code will guide you through re-authenticating if needed.
 - **Something broke and you're lost:** Say "something broke and I don't know what happened." Claude Code will help you diagnose it. This is part of learning.
-- **You want to start over:** That's fine. You can always re-fork the repo and start fresh. Nothing is permanent.
+- **You want to start over:** That's fine. You can always create a new copy from the template and start fresh. Nothing is permanent.
 
 ## You're Ready
 

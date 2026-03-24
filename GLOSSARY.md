@@ -14,6 +14,8 @@
 
 **clone**  - Downloading a copy of a repository from GitHub to your own computer so you can work on it locally.
 
+**template repository**  - A starting-point repo on GitHub. When you create a new repo from a template, GitHub copies all the files into a brand-new repository on your account. Your copy is completely independent from the original.
+
 **terminal**  - A text-based interface for talking to your computer. Instead of clicking buttons, you type commands. Also called the command line or shell.
 
 **IDE (Integrated Development Environment)**  - A program designed for writing code. VS Code is an IDE. It's like Microsoft Word, but for code  - with built-in tools to help you write, test, and debug.
