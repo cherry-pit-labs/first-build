@@ -76,4 +76,4 @@ Your GitHub profile is **public by default**. Anyone can see your username, bio,
 
 ---
 
-**Next:** [Install Node.js](05-Install-Node) →
+← [Install Git](03-Install-Git) | **Next:** [Install Node.js](05-Install-Node) →

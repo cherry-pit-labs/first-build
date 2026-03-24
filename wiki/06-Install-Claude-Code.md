@@ -72,4 +72,4 @@ The key habit: **read what Claude Code proposes before approving it.** This isn'
 
 ---
 
-**Next:** [Clone This Repo](07-Clone-This-Repo) →
+← [Install Node.js](05-Install-Node) | **Next:** [Clone This Repo](07-Clone-This-Repo) →

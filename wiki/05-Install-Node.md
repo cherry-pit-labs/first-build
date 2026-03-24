@@ -102,4 +102,4 @@ Claude Code will help you vet packages as your project progresses. This is one o
 
 ---
 
-**Next:** [Install Claude Code](06-Install-Claude-Code) →
+← [GitHub Basics](04-GitHub-Basics) | **Next:** [Install Claude Code](06-Install-Claude-Code) →

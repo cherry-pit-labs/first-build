@@ -50,4 +50,4 @@ The most important rule you'll learn: **never put secrets (passwords, API keys, 
 
 ---
 
-**Next:** [Install VS Code](02-Install-VS-Code) →
+← [Home](Home) | **Next:** [Install VS Code](02-Install-VS-Code) →

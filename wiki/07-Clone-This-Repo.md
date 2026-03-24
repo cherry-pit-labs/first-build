@@ -105,4 +105,4 @@ When you encounter scripts from less trusted sources in the future, always take 
 
 ---
 
-**Next:** [Choose Your Project](08-Choose-Your-Project) →
+← [Install Claude Code](06-Install-Claude-Code) | **Next:** [Choose Your Project](08-Choose-Your-Project) →

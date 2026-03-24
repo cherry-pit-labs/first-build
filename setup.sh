@@ -14,10 +14,10 @@ check() {
 
     if [ "$status" -eq 0 ]; then
         echo "✅ $message"
-        ((passed++))
+        passed=$((passed + 1))
     else
         echo "❌ $label — $message"
-        ((failed++))
+        failed=$((failed + 1))
     fi
 }
 

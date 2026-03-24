@@ -98,4 +98,4 @@ Open your terminal. Type `claude`. Start building.
 
 ---
 
-← [Back to Home](Home)
+← [Choose Your Project](08-Choose-Your-Project) | [Back to Home](Home)

@@ -143,4 +143,4 @@ Your SSH key is like a digital ID card. The **private key** file (`id_ed25519` �
 
 ---
 
-**Next:** [GitHub Basics](04-GitHub-Basics) →
+← [Install VS Code](02-Install-VS-Code) | **Next:** [GitHub Basics](04-GitHub-Basics) →

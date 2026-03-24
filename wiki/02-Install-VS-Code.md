@@ -89,4 +89,4 @@ Search for and install these:
 
 ---
 
-**Next:** [Install Git](03-Install-Git) →
+← [Prerequisites](01-Prerequisites) | **Next:** [Install Git](03-Install-Git) →

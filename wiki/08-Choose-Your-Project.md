@@ -28,7 +28,7 @@ Build a website that's about you. It could showcase your interests, act as a por
 
 The classic first application. Build a task manager where you can add, complete, and delete tasks — and they're still there when you close and reopen the app.
 
-**What you'll learn:** How to manage data (creating, reading, updating, deleting — developers call this "CRUD"), building a user interface, and saving data so it persists.
+**What you'll learn:** How to manage data — creating, reading, updating, and deleting it. Developers call these four operations "CRUD" (Create, Read, Update, Delete), building a user interface, and saving data so it persists.
 
 **What you'll have:** A working task manager, either as a web app or a terminal app.
 
@@ -112,4 +112,4 @@ Once you've decided (or narrowed it down), move to the final page. In your first
 
 ---
 
-**Next:** [Your First Session](09-Your-First-Session) →
+← [Clone This Repo](07-Clone-This-Repo) | **Next:** [Your First Session](09-Your-First-Session) →
