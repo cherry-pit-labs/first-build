@@ -1,6 +1,6 @@
 # 2. Install VS Code
 
-VS Code (Visual Studio Code) is a **code editor** — the program you'll write code in. It's not like Microsoft Word. Think of it more like a workshop: it has built-in tools that help you write, organize, test, and debug your code. It's free, it's made by Microsoft, and it's what most developers use.
+VS Code (Visual Studio Code) is a **code editor**  - the program you'll write code in. It's not like Microsoft Word. Think of it more like a workshop: it has built-in tools that help you write, organize, test, and debug your code. It's free, it's made by Microsoft, and it's what most developers use.
 
 ---
 
@@ -63,14 +63,14 @@ When VS Code opens, you'll see something like this:
 
 Key areas to know:
 
-- **Sidebar (left)** — File explorer, search, source control, extensions. Click the icons to switch between them.
-- **Editor area (center)** — Where you write and read code. You can have multiple files open in tabs.
-- **Terminal panel (bottom)** — A built-in command line. Open it with `` Ctrl+` `` (that's the backtick key, usually above Tab). This is where you'll run Git commands, Claude Code, and more.
-- **Command Palette** — Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) to search for any action. This is your "I know what I want to do but don't know where the button is" tool.
+- **Sidebar (left)**  - File explorer, search, source control, extensions. Click the icons to switch between them.
+- **Editor area (center)**  - Where you write and read code. You can have multiple files open in tabs.
+- **Terminal panel (bottom)**  - A built-in command line. Open it with `` Ctrl+` `` (that's the backtick key, usually above Tab). This is where you'll run Git commands, Claude Code, and more.
+- **Command Palette**  - Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) to search for any action. This is your "I know what I want to do but don't know where the button is" tool.
 
 ## Install Essential Extensions
 
-Extensions add features to VS Code. Think of them like apps on your phone — VS Code is the phone, extensions are the apps.
+Extensions add features to VS Code. Think of them like apps on your phone  - VS Code is the phone, extensions are the apps.
 
 Click the **Extensions** icon in the sidebar (it looks like four small squares) or press `Ctrl+Shift+X`.
 
@@ -85,7 +85,7 @@ Search for and install these:
 
 ### 🔒 Security Note
 
-**Only install extensions from verified publishers.** In the extension marketplace, look for the blue checkmark next to the publisher's name — this means Microsoft has verified them. Unverified extensions from unknown publishers could potentially be unsafe. When in doubt, ask Claude Code about an extension before installing it.
+**Only install extensions from verified publishers.** In the extension marketplace, look for the blue checkmark next to the publisher's name  - this means Microsoft has verified them. Unverified extensions from unknown publishers could potentially be unsafe. When in doubt, ask Claude Code about an extension before installing it.
 
 ---
 

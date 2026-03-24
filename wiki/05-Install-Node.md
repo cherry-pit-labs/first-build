@@ -2,7 +2,7 @@
 
 **Node.js** is a program that lets you run JavaScript outside of a web browser. Why do you need it? Two reasons:
 
-1. **Claude Code runs on it.** Claude Code is built with Node.js — you need it installed before Claude Code will work.
+1. **Claude Code runs on it.** Claude Code is built with Node.js  - you need it installed before Claude Code will work.
 2. **Many projects use it.** If you build a web app, a bot, or a CLI tool, there's a good chance it'll use Node.js.
 
 We're going to install Node.js using something called **nvm** (Node Version Manager) instead of downloading it directly. This is the way professional developers do it.
@@ -23,7 +23,7 @@ On Windows, we use **nvm-windows** (a version of nvm made specifically for Windo
 1. Go to the [nvm-windows releases page](https://github.com/coreybutler/nvm-windows/releases)
 2. Under the latest release, download `nvm-setup.exe`
 3. Run the installer. Accept the defaults.
-4. **Close and reopen your terminal** (or restart VS Code) after the install — this is important so the new commands are recognized.
+4. **Close and reopen your terminal** (or restart VS Code) after the install  - this is important so the new commands are recognized.
 
 <details>
 <summary>Mac / Linux</summary>
@@ -47,7 +47,7 @@ nvm --version
 
 Now use nvm to install the latest LTS (Long Term Support) version of Node.js:
 
-**Windows (open a new terminal window — this matters!):**
+**Windows (open a new terminal window  - this matters!):**
 ```bash
 nvm install lts
 nvm use lts
@@ -63,7 +63,7 @@ nvm use --lts
 
 </details>
 
-**LTS** means Long Term Support — it's the stable, recommended version. New features go to the "current" version first, but LTS is what you want for reliable development.
+**LTS** means Long Term Support  - it's the stable, recommended version. New features go to the "current" version first, but LTS is what you want for reliable development.
 
 ## Verify It Worked
 

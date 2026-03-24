@@ -1,8 +1,8 @@
 # First Build
 
-**Build your first software project — with an AI tutor guiding every step.**
+**Build your first software project  - with an AI tutor guiding every step.**
 
-First Build is a hands-on tutorial for people who have never written code before. It walks you through setting up a real development environment, then pairs you with Claude Code — an AI assistant that teaches you to build software by actually building it with you.
+First Build is a hands-on tutorial for people who have never written code before. It walks you through setting up a real development environment, then pairs you with Claude Code  - an AI assistant that teaches you to build software by actually building it with you.
 
 ## Who This Is For
 
@@ -15,19 +15,19 @@ You're comfortable with computers but have never written a line of code. Maybe y
 By the end of this project, you'll have:
 
 - A **working development environment** (VS Code, Git, Node.js, Claude Code)
-- A **real software project** you built yourself — something you can show people
+- A **real software project** you built yourself  - something you can show people
 - **Practical skills** in Git, the terminal, and at least one programming language
 - **Good habits** around security, documentation, and version control from day one
 
 ## How It Works
 
-1. **Follow the setup guide** — The [wiki](../../wiki) walks you through installing everything you need, step by step. Budget about 1–2 hours.
-2. **Choose a project** — Pick from a menu of starter ideas or bring your own.
-3. **Build it with Claude Code** — Open your terminal, type `claude`, and start building. Claude Code reads the `CLAUDE.md` file in this repo and becomes your personal tutor — explaining every concept before using it, quizzing you to make sure you understand, and adapting to your pace.
+1. **Follow the setup guide**  - The [wiki](../../wiki) walks you through installing everything you need, step by step. Budget about 1–2 hours.
+2. **Choose a project**  - Pick from a menu of starter ideas or bring your own.
+3. **Build it with Claude Code**  - Open your terminal, type `claude`, and start building. Claude Code reads the `CLAUDE.md` file in this repo and becomes your personal tutor  - explaining every concept before using it, quizzing you to make sure you understand, and adapting to your pace.
 
 ## Quick Start
 
-> **First time here?** Start with the [wiki Home page](../../wiki) and work through the guide in order. Don't skip ahead — each page builds on the last.
+> **First time here?** Start with the [wiki Home page](../../wiki) and work through the guide in order. Don't skip ahead  - each page builds on the last.
 
 If you've already completed the setup guide:
 
@@ -42,7 +42,7 @@ That's it. Claude Code takes it from here.
 
 | File | Purpose |
 |------|---------|
-| `CLAUDE.md` | Instructions for Claude Code — defines how it teaches you. Adapts to your project. |
+| `CLAUDE.md` | Instructions for Claude Code  - defines how it teaches you. Adapts to your project. |
 | `DEVLOG.md` | Your development journal. Updated every session with what you learned. |
 | `GLOSSARY.md` | Every technical term you encounter, defined in plain English. |
 | `PROGRESS.md` | Skill checklist and milestone tracker. Check things off as you learn them. |

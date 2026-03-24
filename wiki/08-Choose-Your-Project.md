@@ -2,7 +2,7 @@
 
 Your tools are installed. Your environment is verified. Now comes the fun part: **deciding what to build.**
 
-The best first project is one you actually care about. Something you'd use yourself, or show a friend, or put on your profile. Motivation matters way more than complexity — a simple project you finish beats an ambitious one you abandon.
+The best first project is one you actually care about. Something you'd use yourself, or show a friend, or put on your profile. Motivation matters way more than complexity  - a simple project you finish beats an ambitious one you abandon.
 
 ---
 
@@ -20,15 +20,15 @@ Build a website that's about you. It could showcase your interests, act as a por
 
 **Good fit if:** You want something visual and immediately useful. You like design and layout.
 
-**Complexity:** Low — great starting point.
+**Complexity:** Low  - great starting point.
 
 ---
 
 ### 2. To-Do App
 
-The classic first application. Build a task manager where you can add, complete, and delete tasks — and they're still there when you close and reopen the app.
+The classic first application. Build a task manager where you can add, complete, and delete tasks  - and they're still there when you close and reopen the app.
 
-**What you'll learn:** How to manage data — creating, reading, updating, and deleting it. Developers call these four operations "CRUD" (Create, Read, Update, Delete), building a user interface, and saving data so it persists.
+**What you'll learn:** How to manage data  - creating, reading, updating, and deleting it. Developers call these four operations "CRUD" (Create, Read, Update, Delete), building a user interface, and saving data so it persists.
 
 **What you'll have:** A working task manager, either as a web app or a terminal app.
 
@@ -40,7 +40,7 @@ The classic first application. Build a task manager where you can add, complete,
 
 ### 3. Quiz / Flashcard App
 
-Build an interactive app that quizzes you on topics you choose — vocabulary, history, trivia, or anything else. You create the questions, and the app tests you.
+Build an interactive app that quizzes you on topics you choose  - vocabulary, history, trivia, or anything else. You create the questions, and the app tests you.
 
 **What you'll learn:** Handling user input, working with structured data (questions, answers, scores), and building interactive flows.
 
@@ -54,7 +54,7 @@ Build an interactive app that quizzes you on topics you choose — vocabulary, h
 
 ### 4. Discord Bot
 
-Build a bot that lives in a Discord server and responds to commands. It could tell jokes, manage polls, play games, look up information — whatever you want.
+Build a bot that lives in a Discord server and responds to commands. It could tell jokes, manage polls, play games, look up information  - whatever you want.
 
 **What you'll learn:** APIs (how programs talk to each other), events (responding when things happen), and asynchronous programming (doing things that take time without freezing everything).
 
@@ -82,7 +82,7 @@ Build a command-line tool that solves a real problem on your computer. Examples:
 
 ## Have Your Own Idea?
 
-**Great.** The five options above are suggestions, not limits. If you have something else in mind — maybe a simple game, a calculator, a recipe organizer, a habit tracker — bring it to your first Claude Code session.
+**Great.** The five options above are suggestions, not limits. If you have something else in mind  - maybe a simple game, a calculator, a recipe organizer, a habit tracker  - bring it to your first Claude Code session.
 
 Claude Code will help you figure out:
 - Is this a good fit for a first project? (Too simple? Too ambitious? Just right?)

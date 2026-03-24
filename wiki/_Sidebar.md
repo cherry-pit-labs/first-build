@@ -1,4 +1,4 @@
-# First Build — Setup Guide
+# First Build  - Setup Guide
 
 **[Home](Home)**
 

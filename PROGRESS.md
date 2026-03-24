@@ -1,6 +1,6 @@
 # Progress Tracker
 
-> This file tracks your learning journey — concepts you've understood, tools you've used, and milestones you've hit. Check things off as you go. Be honest — only check a box when you genuinely understand something, not just when you've seen it.
+> This file tracks your learning journey  - concepts you've understood, tools you've used, and milestones you've hit. Check things off as you go. Be honest  - only check a box when you genuinely understand something, not just when you've seen it.
 
 ---
 
@@ -46,7 +46,7 @@
 
 > *These will be filled in once you choose your project.*
 
-**[ADAPTIVE — Claude Code will add project-specific milestones during your first session]**
+**[ADAPTIVE  - Claude Code will add project-specific milestones during your first session]**
 
 ---
 

@@ -11,11 +11,11 @@ Now we'll get the First Build project onto your computer. This is a two-step pro
 3. On the "Create a new fork" page:
    - **Owner:** Should be your GitHub username
    - **Repository name:** Keep it as `first-build`
-   - **Description:** Optional — add one if you want
+   - **Description:** Optional  - add one if you want
    - Leave "Copy the `main` branch only" checked
 4. Click **Create fork**
 
-You now have your own copy of this project on your GitHub account. This is *your* repo — you can do whatever you want with it without affecting the original.
+You now have your own copy of this project on your GitHub account. This is *your* repo  - you can do whatever you want with it without affecting the original.
 
 **Why fork instead of just clone?** If you only cloned the original, you wouldn't be able to push (upload) your changes back to GitHub, because you don't have write access to someone else's repo. Forking gives you your own copy that you fully control.
 
@@ -50,8 +50,8 @@ git clone git@github.com:YOUR_USERNAME/first-build.git
 ```
 
 **What's happening:**
-- `git clone` — "Download a repository"
-- `git@github.com:YOUR_USERNAME/first-build.git` — The SSH address of your fork (this is why we set up SSH keys earlier)
+- `git clone`  - "Download a repository"
+- `git@github.com:YOUR_USERNAME/first-build.git`  - The SSH address of your fork (this is why we set up SSH keys earlier)
 
 You should see output about "Cloning into 'first-build'..." and some progress info.
 
@@ -73,7 +73,7 @@ The `.` means "the current directory." VS Code will open with all the project fi
 
 ## Step 4: Run the Setup Verification Script
 
-The project includes a script that checks whether your environment is ready. It doesn't install anything — it only checks.
+The project includes a script that checks whether your environment is ready. It doesn't install anything  - it only checks.
 
 **Windows (PowerShell):**
 ```powershell
@@ -99,9 +99,9 @@ The script will check for Git, Node.js, npm, Claude Code, and your SSH key, prin
 
 ### 🔒 Security Note
 
-**Reading scripts before running them is a good habit.** The setup script is short and simple — you can open `setup.sh` or `setup.ps1` in VS Code and read through it. It only checks that tools are installed; it doesn't install anything or send data anywhere.
+**Reading scripts before running them is a good habit.** The setup script is short and simple  - you can open `setup.sh` or `setup.ps1` in VS Code and read through it. It only checks that tools are installed; it doesn't install anything or send data anywhere.
 
-When you encounter scripts from less trusted sources in the future, always take a look at what they do before running them. Claude Code can explain any script to you line-by-line — just ask: "Can you explain what this script does?"
+When you encounter scripts from less trusted sources in the future, always take a look at what they do before running them. Claude Code can explain any script to you line-by-line  - just ask: "Can you explain what this script does?"
 
 ---
 

@@ -26,11 +26,11 @@ Claude Code will introduce itself and check in with you. It knows (from `CLAUDE.
 
 ### 2. Confirm Your Environment
 
-Claude Code will make sure everything is working — Git, Node, your SSH connection to GitHub. If something's off, it'll help you fix it.
+Claude Code will make sure everything is working  - Git, Node, your SSH connection to GitHub. If something's off, it'll help you fix it.
 
 ### 3. Choose and Refine Your Project
 
-Tell Claude Code what you want to build. Be specific or vague — either works:
+Tell Claude Code what you want to build. Be specific or vague  - either works:
 
 - **Specific:** "I want to build a to-do app that runs in the browser and saves tasks to local storage."
 - **Vague:** "I want to build a Discord bot, but I'm not sure what it should do yet."
@@ -46,7 +46,7 @@ Once the project is defined, Claude Code will:
 - Populate `ARCHITECTURE.md` with an initial design
 - Add project-specific milestones to `PROGRESS.md`
 
-It will **explain every step** as it goes. If anything doesn't make sense, say "explain that" or "wait, what does that mean?" — that's not interrupting, that's learning.
+It will **explain every step** as it goes. If anything doesn't make sense, say "explain that" or "wait, what does that mean?"  - that's not interrupting, that's learning.
 
 ### 5. Your First Commit
 
@@ -59,13 +59,13 @@ This is a genuine milestone. Your first commit to a real Git repository.
 
 ### 6. Preview of What's Next
 
-Before wrapping up, Claude Code will give you a quick preview of what your next session will look like — what concepts you'll learn, what you'll start building.
+Before wrapping up, Claude Code will give you a quick preview of what your next session will look like  - what concepts you'll learn, what you'll start building.
 
 ## Tips for a Good Session
 
-- **Ask questions.** The instruction file literally tells Claude Code to expect your questions. There's no such thing as a dumb question — only concepts that haven't been explained well enough yet.
+- **Ask questions.** The instruction file literally tells Claude Code to expect your questions. There's no such thing as a dumb question  - only concepts that haven't been explained well enough yet.
 - **Say "explain that" liberally.** If something goes by too fast or a term doesn't make sense, stop and ask. Claude Code is designed to re-explain from a different angle.
-- **Answer the quizzes honestly.** When Claude Code asks you a check-in question (🧠 CHECK-IN), give your real answer. If you're unsure, say so. These quizzes aren't tests — they're how Claude Code knows whether to move on or re-teach something.
+- **Answer the quizzes honestly.** When Claude Code asks you a check-in question (🧠 CHECK-IN), give your real answer. If you're unsure, say so. These quizzes aren't tests  - they're how Claude Code knows whether to move on or re-teach something.
 - **Don't rush.** Seriously. Understanding one thing well is better than skimming five things.
 
 ## Ending a Session
@@ -81,7 +81,7 @@ This signals Claude Code to wrap up the session. It will:
 4. Commit all the documentation updates
 5. Give you a preview of what's next
 
-**Review the DEVLOG entry.** Claude Code writes a draft, but it's your journal — edit it so it reflects your experience in your own words. Writing about what you learned is one of the best ways to make it stick.
+**Review the DEVLOG entry.** Claude Code writes a draft, but it's your journal  - edit it so it reflects your experience in your own words. Writing about what you learned is one of the best ways to make it stick.
 
 ## What If Something Goes Wrong?
 
@@ -92,7 +92,7 @@ This signals Claude Code to wrap up the session. It will:
 
 ## You're Ready
 
-This is the part where most tutorials would say "good luck." But you don't need luck — you have a tutor that doesn't get tired, doesn't judge, and adapts to exactly how you learn.
+This is the part where most tutorials would say "good luck." But you don't need luck  - you have a tutor that doesn't get tired, doesn't judge, and adapts to exactly how you learn.
 
 Open your terminal. Type `claude`. Start building.
 
