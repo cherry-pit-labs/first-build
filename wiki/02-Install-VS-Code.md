@@ -6,7 +6,10 @@ VS Code (Visual Studio Code) is a **code editor**  - the program you'll write co
 
 ## Install VS Code
 
-**Windows:**
+<details>
+<summary>Windows</summary>
+
+**GUI method:**
 1. Go to [code.visualstudio.com](https://code.visualstudio.com/)
 2. Click the big blue **Download for Windows** button
 3. Run the installer. Accept the defaults, but **check these boxes** if they appear:
@@ -15,9 +18,18 @@ VS Code (Visual Studio Code) is a **code editor**  - the program you'll write co
    - "Add 'Open with Code' action to directory context menu" ✅
 4. Finish the install and open VS Code
 
+**CLI method:**
+```powershell
+winget install Microsoft.VisualStudioCode
+```
+> **What's `winget`?** It's Windows' built-in package manager — a way to install programs from the command line instead of downloading installers from websites.
+
+</details>
+
 <details>
 <summary>Mac</summary>
 
+**GUI method:**
 1. Go to [code.visualstudio.com](https://code.visualstudio.com/)
 2. Click **Download for Mac**
 3. Open the downloaded `.zip` file
@@ -25,12 +37,18 @@ VS Code (Visual Studio Code) is a **code editor**  - the program you'll write co
 5. Open it from Applications
 6. To use `code` from the terminal: open the Command Palette (`Cmd+Shift+P`), type "shell command", and select **"Install 'code' command in PATH"**
 
+**CLI method:**
+```bash
+brew install --cask visual-studio-code
+```
+> This requires [Homebrew](https://brew.sh/). If you don't have it, use the GUI method above.
+
 </details>
 
 <details>
 <summary>Linux</summary>
 
-The easiest path is using Snap:
+**CLI method (Snap):**
 ```bash
 sudo snap install code --classic
 ```
@@ -80,6 +98,12 @@ Search for and install these:
 |-----------|-------------|
 | **GitLens** | Shows who changed each line of code and when. Makes Git visual. |
 | **Prettier** | Automatically formats your code so it looks neat and consistent. |
+
+**CLI method:** You can also install extensions from the terminal:
+```bash
+code --install-extension eamodio.gitlens
+code --install-extension esbenp.prettier-vscode
+```
 
 > **Note:** You may install additional extensions later depending on your project (like the Python extension for Python projects). Claude Code will recommend them when the time comes.
 
