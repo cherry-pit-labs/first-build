@@ -10,7 +10,10 @@ Imagine you're writing an essay and you save a new copy every time you make a bi
 
 ## Install Git
 
-**Windows:**
+<details>
+<summary>Windows</summary>
+
+**GUI method:**
 1. Go to [git-scm.com](https://git-scm.com/)
 2. Click **Download for Windows**
 3. Run the installer. The defaults are fine for most settings, but pay attention to these:
@@ -18,6 +21,13 @@ Imagine you're writing an essay and you save a new copy every time you make a bi
    - **PATH environment:** Choose "Git from the command line and also from 3rd-party software" (usually the default)
    - **Line ending conversions:** Choose "Checkout Windows-style, commit Unix-style line endings" (the default)
 4. Finish the install
+
+**CLI method:**
+```powershell
+winget install Git.Git
+```
+
+</details>
 
 <details>
 <summary>Mac</summary>
@@ -141,6 +151,12 @@ When it asks:
 3. Give it a name (like "My Laptop")
 4. Paste your public key into the "Key" field
 5. Click **Add SSH key**
+
+**CLI method:** If you have the GitHub CLI (`gh`) installed and authenticated, you can do this in one command:
+```bash
+gh ssh-key add ~/.ssh/id_ed25519.pub --title "My Laptop"
+```
+> Don't have `gh` yet? Install it: `winget install GitHub.cli` (Windows), `brew install gh` (Mac), or `sudo apt install gh` (Linux). Then run `gh auth login` to authenticate.
 
 ### Verify it works:
 

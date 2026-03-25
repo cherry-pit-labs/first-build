@@ -6,6 +6,7 @@ Now we'll get the First Build project onto your computer. This is a two-step pro
 
 ## Step 1: Create Your Copy from the Template
 
+**GUI method:**
 1. Go to the **[First Build repository on GitHub](https://github.com/cherry-pit-labs/first-build)**
 2. Click the green **"Use this template"** button near the top-right of the page
 3. Select **"Create a new repository"**
@@ -15,6 +16,11 @@ Now we'll get the First Build project onto your computer. This is a two-step pro
    - **Description:** Optional - add one if you want
    - **Visibility:** Choose **Private** for now (you can make it public later as a portfolio piece)
 5. Click **"Create repository"**
+
+**CLI method:** If you have the GitHub CLI (`gh`) installed:
+```bash
+gh repo create first-build --template cherry-pit-labs/first-build --private
+```
 
 You now have your own copy of this project on your GitHub account. This is *your* repo - you can do whatever you want with it without affecting the original.
 
@@ -26,10 +32,14 @@ Open VS Code and open the terminal (`` Ctrl+` ``).
 
 Navigate to where you want to keep your projects. A common choice:
 
-**Windows:**
+<details>
+<summary>Windows</summary>
+
 ```bash
 cd ~/Documents
 ```
+
+</details>
 
 <details>
 <summary>Mac / Linux</summary>

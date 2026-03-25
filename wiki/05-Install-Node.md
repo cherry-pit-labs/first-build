@@ -17,22 +17,23 @@ We're going to install Node.js using something called **fnm** (Fast Node Manager
 
 ## Install fnm
 
-**Windows:**
+<details>
+<summary>Windows</summary>
 
 1. Open PowerShell and run:
    ```powershell
    winget install Schniz.fnm
    ```
-   > **What's `winget`?** It's Windows' built-in package manager - a way to install programs from the command line instead of downloading installers from websites. It comes pre-installed on Windows 10 (version 1809+) and Windows 11.
+   > **What's `winget`?** It's Windows' built-in package manager — a way to install programs from the command line instead of downloading installers from websites. It comes pre-installed on Windows 10 (version 1809+) and Windows 11.
 
 2. **Set up your shell profile.** This step tells PowerShell to activate fnm every time you open a terminal. Run this command:
    ```powershell
    if (!(Test-Path $PROFILE)) { New-Item -Path $PROFILE -Force }
    Add-Content -Path $PROFILE -Value 'fnm env --use-on-cd --shell powershell | Out-String | Invoke-Expression'
    ```
-   > **What's a shell profile?** It's a script that runs automatically every time you open a new terminal window. Think of it like startup settings for your command line. The file lives at `$PROFILE` - you can type that in PowerShell to see the exact path.
+   > **What's a shell profile?** It's a script that runs automatically every time you open a new terminal window. Think of it like startup settings for your command line. The file lives at `$PROFILE` — you can type that in PowerShell to see the exact path.
 
-3. **Close and reopen your terminal** (or restart VS Code) - this is important so the new commands are recognized.
+3. **Close and reopen your terminal** (or restart VS Code) — this is important so the new commands are recognized.
 
 4. Verify fnm installed:
    ```powershell
@@ -42,6 +43,8 @@ We're going to install Node.js using something called **fnm** (Fast Node Manager
    ```
    fnm 1.39.0
    ```
+
+</details>
 
 <details>
 <summary>Mac / Linux</summary>
