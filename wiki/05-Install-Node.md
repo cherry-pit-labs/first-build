@@ -63,7 +63,7 @@ Now use fnm to install the latest LTS (Long Term Support) version of Node.js:
 
 ```bash
 fnm install --lts
-fnm use --lts
+fnm use lts-latest
 ```
 
 These commands are the same on Windows, Mac, and Linux - that's one of the nice things about fnm.
