@@ -13,11 +13,14 @@ npm install -g @anthropic-ai/claude-code
 ```
 
 **What's happening here:**
-- `npm install`  - "Install a package"
-- `-g`  - "Globally" (available everywhere on your computer, not just in one project folder)
-- `@anthropic-ai/claude-code`  - The name of the package to install
+- `npm install` - "Install a package"
+- `-g` - "Globally" (available everywhere on your computer, not just in one project folder)
+- `@anthropic-ai/claude-code` - The name of the package to install
 
-This may take a minute. You'll see some progress output.
+This may take a minute. You'll see progress output ending with something like:
+```
+added 1 package in 15s
+```
 
 ## Verify It Installed
 
@@ -25,7 +28,12 @@ This may take a minute. You'll see some progress output.
 claude --version
 ```
 
-You should see a version number. If you get "command not found," close and reopen your terminal, then try again.
+You should see something like:
+```
+1.0.12 (Claude Code)
+```
+
+If you get "command not found," close and reopen your terminal, then try again.
 
 ## First Launch
 

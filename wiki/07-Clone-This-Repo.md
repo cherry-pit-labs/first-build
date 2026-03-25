@@ -54,7 +54,14 @@ git clone git@github.com:YOUR_USERNAME/first-build.git
 - `git clone` - "Download a repository"
 - `git@github.com:YOUR_USERNAME/first-build.git` - The SSH address of your repo (this is why we set up SSH keys earlier)
 
-You should see output about "Cloning into 'first-build'..." and some progress info.
+You should see output like:
+```
+Cloning into 'first-build'...
+remote: Enumerating objects: 25, done.
+remote: Counting objects: 100% (25/25), done.
+remote: Compressing objects: 100% (20/20), done.
+Receiving objects: 100% (25/25), done.
+```
 
 Now move into the project folder:
 
@@ -92,7 +99,29 @@ The project includes a script that checks whether your environment is ready. It 
 > ```
 > Then try `.\setup.ps1` again.
 
-The script will check for Git, Node.js, npm, Claude Code, and your SSH key, printing ✅ or ❌ for each one.
+The script will check for Git, Node.js, npm, Claude Code, and your SSH key, printing ✅ or ❌ for each one:
+
+```
+=========================================
+  First Build - Environment Check
+=========================================
+
+✅ Git - 2.43.0
+✅ Git user.name - Jane Doe
+✅ Git user.email - jane@example.com
+✅ SSH key - Found
+✅ Node.js - v20.11.0
+✅ npm - 10.2.3
+✅ Claude Code - 1.0.12 (Claude Code)
+✅ Git repo - Detected
+
+-----------------------------------------
+  Results: 8 passed, 0 failed
+-----------------------------------------
+
+All checks passed! You're ready to start.
+Run 'claude' to begin your first session.
+```
 
 **If everything passes:** You're ready. Move to the next page.
 

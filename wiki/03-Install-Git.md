@@ -85,9 +85,20 @@ An SSH key lets your computer prove its identity to GitHub without typing your p
 ssh-keygen -t ed25519 -C "your.email@example.com"
 ```
 
+You'll see prompts like this:
+
+```
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/you/.ssh/id_ed25519):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/you/.ssh/id_ed25519
+Your public key has been saved in /c/Users/you/.ssh/id_ed25519.pub
+```
+
 When it asks:
 - **File location:** Press Enter to accept the default
-- **Passphrase:** Type a passphrase (you won't see the characters  - that's normal). This is an extra layer of security in case someone gets access to your computer. Choose something memorable.
+- **Passphrase:** Type a passphrase (you won't see the characters - that's normal). This is an extra layer of security in case someone gets access to your computer. Choose something memorable.
 
 ### Add it to GitHub:
 
@@ -96,6 +107,10 @@ When it asks:
    **Windows (Git Bash or PowerShell):**
    ```bash
    cat ~/.ssh/id_ed25519.pub
+   ```
+   You'll see something like this (one long line):
+   ```
+   ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIG... your.email@example.com
    ```
    Select and copy the entire output.
 

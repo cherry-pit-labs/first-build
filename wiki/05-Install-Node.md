@@ -38,6 +38,10 @@ We're going to install Node.js using something called **fnm** (Fast Node Manager
    ```powershell
    fnm --version
    ```
+   You should see something like:
+   ```
+   fnm 1.39.0
+   ```
 
 <details>
 <summary>Mac / Linux</summary>
@@ -54,6 +58,7 @@ Verify fnm installed:
 ```bash
 fnm --version
 ```
+You should see something like `fnm 1.39.0`.
 
 </details>
 
@@ -64,6 +69,13 @@ Now use fnm to install the latest LTS (Long Term Support) version of Node.js:
 ```bash
 fnm install --lts
 fnm use lts-latest
+```
+
+You should see output like:
+```
+Installing Node v20.11.0 (x64)
+Done installing Node v20.11.0 (x64)
+Using Node v20.11.0
 ```
 
 These commands are the same on Windows, Mac, and Linux - that's one of the nice things about fnm.
