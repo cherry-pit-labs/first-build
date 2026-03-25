@@ -50,4 +50,22 @@
 
 ---
 
+## Review Queue
+
+> Concepts you didn't get on the first try land here. Claude Code will revisit them in future sessions with fresh questions. Once you demonstrate solid understanding without prompting, they move out of the queue.
+>
+> **How it works:** Each entry tracks what the concept was, when it was first missed, and how many times it's been revisited. This isn't a "bad" list - it's a "still learning" list. Every developer has concepts that take a few tries to click.
+
+<!-- Format:
+| Concept | First missed | Revisits | Status |
+|---------|-------------|----------|--------|
+| Example concept | Session 2 | 1 | Revisiting |
+-->
+
+| Concept | First missed | Revisits | Status |
+|---------|-------------|----------|--------|
+| *Nothing here yet - you haven't started!* | | | |
+
+---
+
 *Last updated: Not yet started*

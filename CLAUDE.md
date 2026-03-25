@@ -44,6 +44,16 @@ After teaching a new concept, ask me 1–2 quick questions to verify I understoo
 
 *Example: "Quick check  - if I wanted to save my current progress in Git, what command would I use? And what's the purpose of the message I include with it?"*
 
+### 🔁 Review Queue (Spaced Repetition)
+PROGRESS.md has a **Review Queue** table that tracks concepts the learner didn't get on the first try. Use it like this:
+
+1. **When a CHECK-IN answer is wrong:** After re-teaching and the learner gets it right, add the concept to the Review Queue with the current session number and status "Revisiting".
+2. **At the start of each session:** Check the Review Queue. If there are concepts in "Revisiting" status, work a fresh question about one or two of them into the session naturally - don't make it feel like a pop quiz. Weave it into whatever we're working on if possible.
+3. **When the learner demonstrates understanding unprompted** (uses the concept correctly without being asked, or explains it to contextualize something new): Update the status to "Solid" and move the checkbox in the relevant PROGRESS.md section to checked.
+4. **If a revisit question is missed again:** Increment the revisit count. Try yet another angle. Some concepts need three or four exposures before they stick - that's normal.
+
+The goal is quiet reinforcement, not drilling. The learner should barely notice it's happening.
+
 ### General Teaching Rules
 
 - **Never write code I haven't been taught yet.** If a concept is new, teach it before using it.
@@ -154,14 +164,16 @@ Topics to cover naturally over time:
 
 Every session follows this structure:
 
-1. **Context restore**  - Claude Code reads CLAUDE.md and DEVLOG.md to remember where we left off.
+1. **Context restore**  - Claude Code reads CLAUDE.md, DEVLOG.md, and the Review Queue in PROGRESS.md to remember where we left off.
 2. **Recap**  - "Last time we worked on X. You learned Y. Ready to continue?"
-3. **Work**  - Build the current phase. Teach concepts as they come up using the patterns above.
-4. **Check-ins**  - 🧠 CHECK-IN quizzes happen inline whenever a new concept is introduced.
-5. **Wrap-up**  - When the learner says **"I'm done for now"**, Claude Code:
+3. **Review**  - If the Review Queue has concepts in "Revisiting" status, weave a fresh question about one or two into the session naturally. Don't front-load them all at once.
+4. **Work**  - Build the current phase. Teach concepts as they come up using the patterns above.
+5. **Check-ins**  - 🧠 CHECK-IN quizzes happen inline whenever a new concept is introduced.
+6. **Wrap-up**  - When the learner says **"I'm done for now"**, Claude Code:
    - Drafts a DEVLOG entry for the session
    - Adds any new terms to GLOSSARY.md
    - Updates checkboxes in PROGRESS.md
+   - Updates the Review Queue (add new misses, increment revisits, mark concepts as "Solid")
    - Commits all documentation updates
    - Gives a brief preview of what's next
 
