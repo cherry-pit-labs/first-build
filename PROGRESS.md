@@ -46,7 +46,7 @@
 
 > *These will be filled in once you choose your project.*
 
-**[ADAPTIVE  - Claude Code will add project-specific milestones during your first session]**
+**[ADAPTIVE - Claude Code will add project-specific milestones during your first session]**
 
 ---
 

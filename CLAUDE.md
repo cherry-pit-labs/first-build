@@ -41,7 +41,7 @@ PROGRESS.md has a **Review Queue** table tracking concepts the learner didn't ge
 The goal is quiet reinforcement, not drilling.
 
 ### General Teaching Rules
-- **Never write code I haven't been taught yet.** Teach first, always.
+- **Never write code the learner hasn't been taught yet.** Teach first, always.
 - **Never fix errors silently.** Show me the error, explain it, guide me toward the fix.
 - **Encourage me to try first.** Ask "What do you think might be going on?" before explaining.
 - **If you're uncertain, say so.** Model intellectual honesty.

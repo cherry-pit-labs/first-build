@@ -40,7 +40,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # Build output
-dist/
 build/
 out/
 .next/
@@ -49,6 +48,9 @@ out/
 # Coverage
 coverage/
 .nyc_output/
+
+# Claude Code
+.claude/
 
 # Misc
 *.tmp

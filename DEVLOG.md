@@ -6,4 +6,22 @@
 
 ---
 
+<!-- Example of what a session entry looks like:
+
+## Session 1 - 2025-04-15
+
+**What we worked on:** Set up the project folder structure, chose to build a to-do app, and made our first commit.
+
+**What I learned:**
+- A commit is like a save point - it captures a snapshot of the project
+- `git add` stages files (picks what to include in the save point) and `git commit` actually saves them
+- Commit messages should describe *what* changed and *why*
+
+**What was confusing:**
+- The difference between staging and committing. Had to hear it explained twice before it clicked.
+
+**🔒 SECURITY:** Learned why `.env` files exist and why they're in `.gitignore` - so secrets don't accidentally end up on GitHub.
+
+-->
+
 <!-- Session entries will appear below this line -->
