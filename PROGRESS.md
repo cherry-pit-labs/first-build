@@ -9,7 +9,7 @@
 - [ ] VS Code installed and configured
 - [ ] Git installed and configured (name, email)
 - [ ] SSH key generated and added to GitHub
-- [ ] Node.js installed (via nvm)
+- [ ] Node.js installed (via fnm)
 - [ ] npm working
 - [ ] Claude Code installed
 - [ ] Repository created from template and cloned

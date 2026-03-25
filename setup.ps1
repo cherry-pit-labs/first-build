@@ -90,7 +90,7 @@ try {
             Test-Check -Label "Node.js" -Success $true -Message "$nodeVersion"
         }
         else {
-            Test-Check -Label "Node.js" -Success $false -Message "$nodeVersion found, but version 18+ is required. Run: nvm install lts"
+            Test-Check -Label "Node.js" -Success $false -Message "$nodeVersion found, but version 18+ is required. Run: fnm install --lts"
         }
     }
     else {

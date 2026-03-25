@@ -2,68 +2,73 @@
 
 **Node.js** is a program that lets you run JavaScript outside of a web browser. Why do you need it? Two reasons:
 
-1. **Claude Code runs on it.** Claude Code is built with Node.js  - you need it installed before Claude Code will work.
+1. **Claude Code runs on it.** Claude Code is built with Node.js - you need it installed before Claude Code will work.
 2. **Many projects use it.** If you build a web app, a bot, or a CLI tool, there's a good chance it'll use Node.js.
 
-We're going to install Node.js using something called **nvm** (Node Version Manager) instead of downloading it directly. This is the way professional developers do it.
+We're going to install Node.js using something called **fnm** (Fast Node Manager) instead of downloading it directly. This is the way professional developers do it.
 
-**Why nvm instead of the direct installer?**
+**Why fnm instead of the direct installer?**
 - It lets you have multiple versions of Node.js and switch between them easily
+- It doesn't require admin/root privileges
 - It avoids permission issues that the direct installer can cause
-- It makes upgrading painless
+- It works the same way on Windows, Mac, and Linux
 
 ---
 
-## Install nvm
+## Install fnm
 
 **Windows:**
 
-On Windows, we use **nvm-windows** (a version of nvm made specifically for Windows).
+1. Open PowerShell and run:
+   ```powershell
+   winget install Schniz.fnm
+   ```
+   > **What's `winget`?** It's Windows' built-in package manager - a way to install programs from the command line instead of downloading installers from websites. It comes pre-installed on Windows 10 (version 1809+) and Windows 11.
 
-1. Go to the [nvm-windows releases page](https://github.com/coreybutler/nvm-windows/releases)
-2. Under the latest release, download `nvm-setup.exe`
-3. Run the installer. Accept the defaults.
-4. **Close and reopen your terminal** (or restart VS Code) after the install  - this is important so the new commands are recognized.
+2. **Set up your shell profile.** This step tells PowerShell to activate fnm every time you open a terminal. Run this command:
+   ```powershell
+   if (!(Test-Path $PROFILE)) { New-Item -Path $PROFILE -Force }
+   Add-Content -Path $PROFILE -Value 'fnm env --use-on-cd --shell powershell | Out-String | Invoke-Expression'
+   ```
+   > **What's a shell profile?** It's a script that runs automatically every time you open a new terminal window. Think of it like startup settings for your command line. The file lives at `$PROFILE` - you can type that in PowerShell to see the exact path.
 
-<details>
-<summary>Mac / Linux</summary>
+3. **Close and reopen your terminal** (or restart VS Code) - this is important so the new commands are recognized.
 
-Open your terminal and run this command:
-
-```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
-```
-
-Then **close and reopen your terminal** (or run `source ~/.bashrc` / `source ~/.zshrc`).
-
-Verify nvm installed:
-```bash
-nvm --version
-```
-
-</details>
-
-## Install Node.js Using nvm
-
-Now use nvm to install the latest LTS (Long Term Support) version of Node.js:
-
-**Windows (open a new terminal window  - this matters!):**
-```bash
-nvm install lts
-nvm use lts
-```
+4. Verify fnm installed:
+   ```powershell
+   fnm --version
+   ```
 
 <details>
 <summary>Mac / Linux</summary>
 
+Install fnm with the install script:
+
 ```bash
-nvm install --lts
-nvm use --lts
+curl -fsSL https://fnm.vercel.app/install | bash
+```
+
+This adds fnm to your shell profile automatically. **Close and reopen your terminal** (or run `source ~/.bashrc` / `source ~/.zshrc`) for it to take effect.
+
+Verify fnm installed:
+```bash
+fnm --version
 ```
 
 </details>
 
-**LTS** means Long Term Support  - it's the stable, recommended version. New features go to the "current" version first, but LTS is what you want for reliable development.
+## Install Node.js Using fnm
+
+Now use fnm to install the latest LTS (Long Term Support) version of Node.js:
+
+```bash
+fnm install --lts
+fnm use --lts
+```
+
+These commands are the same on Windows, Mac, and Linux - that's one of the nice things about fnm.
+
+**LTS** means Long Term Support - it's the stable, recommended version. New features go to the "current" version first, but LTS is what you want for reliable development.
 
 ## Verify It Worked
 

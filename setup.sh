@@ -65,7 +65,7 @@ if command -v node &>/dev/null; then
     if [ "$node_major" -ge 18 ]; then
         check "Node.js" 0 "$node_version"
     else
-        check "Node.js" 1 "$node_version found, but version 18+ is required. Run: nvm install lts"
+        check "Node.js" 1 "$node_version found, but version 18+ is required. Run: fnm install --lts"
     fi
 else
     check "Node.js" 1 "Not installed. See wiki page '05-Install-Node' for setup instructions."
