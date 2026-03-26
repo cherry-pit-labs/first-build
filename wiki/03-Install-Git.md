@@ -152,12 +152,6 @@ When it asks:
 4. Paste your public key into the "Key" field
 5. Click **Add SSH key**
 
-**CLI method:** If you have the GitHub CLI (`gh`) installed and authenticated, you can do this in one command:
-```bash
-gh ssh-key add ~/.ssh/id_ed25519.pub --title "My Laptop"
-```
-> Don't have `gh` yet? Install it: `winget install GitHub.cli` (Windows), `brew install gh` (Mac), or `sudo apt install gh` (Linux). Then run `gh auth login` to authenticate.
-
 ### Verify it works:
 
 ```bash
