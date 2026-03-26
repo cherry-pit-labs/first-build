@@ -65,6 +65,8 @@ git clone git@github.com:YOUR_USERNAME/first-build.git
 - `git clone` - "Download a repository"
 - `git@github.com:YOUR_USERNAME/first-build.git` - The SSH address of your repo (this is why we set up SSH keys earlier)
 
+> **Getting "Permission denied (publickey)"?** This means your SSH key isn't set up yet (or isn't linked to your GitHub account). Go back to [Install Git — Generate an SSH Key](03-Install-Git#generate-an-ssh-key), complete that section, then come back here and try the clone again.
+
 You should see output like:
 ```
 Cloning into 'first-build'...
