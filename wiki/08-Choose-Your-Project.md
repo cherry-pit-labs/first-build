@@ -103,7 +103,7 @@ Don't overthink it. You can always add features later, and the skills you learn 
 
 ## What Happens Next
 
-Once you've decided (or narrowed it down), move to the final page. In your first Claude Code session, you'll tell Claude what you want to build, and it will:
+Once you've decided (or narrowed it down), move to the final page. Before your first session, we'll explain what `CLAUDE.md` is and how it shapes your experience  - then you'll launch Claude Code, tell it what you want to build, and it will:
 
 - Help you refine the idea into a concrete plan
 - Set up the project structure
