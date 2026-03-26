@@ -4,6 +4,29 @@ Everything is installed. You've picked a project (or at least have some ideas). 
 
 ---
 
+## What is CLAUDE.md?
+
+Your project has a file called `CLAUDE.md` in the root folder. This is special  - Claude Code reads it automatically every time it starts.
+
+Think of `CLAUDE.md` as a **set of instructions for your AI tutor.** It tells Claude Code:
+- Who you are (a complete beginner)
+- How to teach you (concepts before code, always explain, quiz you to make sure you understand)
+- What you're building (filled in during your first session)
+- Rules to follow (never skip explanations, always check for security issues, keep documentation updated)
+
+You can read `CLAUDE.md` yourself  - it's written in plain English. Understanding what's in it helps you know what to expect from your tutor.
+
+### 🔒 Security Note
+
+Claude Code can **read and write files** in your project folder. It can also **run commands** in your terminal. That sounds powerful (and it is), but it's designed to be safe:
+
+- It will **ask for your permission** before doing anything potentially destructive (deleting files, installing packages, etc.)
+- It works **within your project folder**  - it's not browsing your entire computer
+- If something feels wrong, you can always say **no** to a proposed action
+- You can review everything it does in real-time  - nothing happens behind your back
+
+The key habit: **read what Claude Code proposes before approving it.** This isn't just about safety  - it's how you learn. Understanding what each action does is the whole point.
+
 ## Starting Claude Code
 
 Open VS Code. Make sure you're in the `first-build` folder (check the bottom-left of VS Code or run `pwd` in the terminal).
