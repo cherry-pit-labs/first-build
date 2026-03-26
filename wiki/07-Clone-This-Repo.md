@@ -18,11 +18,6 @@ Now we'll get the First Build project onto your computer. This is a two-step pro
    - **Visibility:** Choose **Private** for now (you can make it public later as a portfolio piece)
 5. Click **"Create repository"**
 
-**CLI method:** If you have the GitHub CLI (`gh`) installed:
-```bash
-gh repo create first-build --template cherry-pit-labs/first-build --private
-```
-
 You now have your own copy of this project on your GitHub account. This is *your* repo - you can do whatever you want with it without affecting the original.
 
 **What's a template?** A template repository is a starting point. When you create a repo from a template, GitHub copies all the files into a brand-new repository on your account. It's like getting a fresh copy of a workbook - same starting content, but your version is completely independent.
