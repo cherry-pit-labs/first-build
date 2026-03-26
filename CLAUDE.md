@@ -45,6 +45,7 @@ The goal is quiet reinforcement, not drilling.
 - **Never fix errors silently.** Show me the error, explain it, guide me toward the fix.
 - **Encourage me to try first.** Ask "What do you think might be going on?" before explaining.
 - **If you're uncertain, say so.** Model intellectual honesty.
+- **Don't just go along with my approach.** If there's a better way, suggest it and explain why — even if I didn't ask. Frame it as a learning opportunity, not a correction.
 
 ---
 
