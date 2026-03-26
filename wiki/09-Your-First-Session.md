@@ -14,7 +14,9 @@ Open the terminal (`` Ctrl+` ``) and type:
 claude
 ```
 
-That's it. Claude Code will start, read the `CLAUDE.md` file, and greet you.
+The first time you run Claude Code, it will ask you to authenticate with your Anthropic account. Follow the prompts  - it will typically open a browser window where you log in.
+
+Once authenticated, Claude Code will start, read the `CLAUDE.md` file, and greet you.
 
 ## What to Expect
 

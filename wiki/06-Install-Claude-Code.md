@@ -35,29 +35,11 @@ You should see something like:
 
 If you get "command not found," close and reopen your terminal, then try again.
 
-## First Launch
-
-Let's test it out:
-
-```bash
-claude
-```
-
-The first time you run Claude Code, it will ask you to authenticate with your Anthropic account. Follow the prompts  - it will typically open a browser window where you log in.
-
-Once authenticated, you'll see a chat-like interface in your terminal. Try asking it something simple:
-
-```
-What files are in this directory?
-```
-
-Claude Code will look at the files in your current folder and tell you what it sees. That's it  - you're talking to an AI that understands your project.
-
-Type `/exit` to close Claude Code for now. We'll come back to it soon.
+> **We're not launching Claude Code yet.** We'll do that after cloning the project so it can read the project's instruction file. For now, knowing it's installed is enough.
 
 ## What is CLAUDE.md?
 
-You'll notice the project has a file called `CLAUDE.md` in the root folder. This is special  - Claude Code reads it automatically every time it starts.
+After you clone the project (next step), you'll see a file called `CLAUDE.md` in the root folder. This is special  - Claude Code reads it automatically every time it starts.
 
 Think of `CLAUDE.md` as a **set of instructions for your AI tutor.** It tells Claude Code:
 - Who you are (a complete beginner)
