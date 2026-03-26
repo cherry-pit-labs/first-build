@@ -9,6 +9,7 @@ Now we'll get the First Build project onto your computer. This is a two-step pro
 **GUI method:**
 1. Go to the **[First Build repository on GitHub](https://github.com/cherry-pit-labs/first-build)**
 2. Click the green **"Use this template"** button near the top-right of the page
+   > **Don't see the button?** You need to be logged into GitHub. Sign in first, then refresh the page.
 3. Select **"Create a new repository"**
 4. On the "Create a new repository" page:
    - **Owner:** Should be your GitHub username
