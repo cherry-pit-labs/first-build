@@ -70,6 +70,8 @@ Claude Code will create: project name, one-sentence description, core features (
 - **Commit messages:** Present tense, descriptive. "Add navigation bar" - not "stuff".
 - **Workflow:** Branch → commit → push → PR → review → merge.
 - **Explain every git command before running it.** No black boxes.
+- **Teach the full development lifecycle.** Reinforce the branch/commit/push/PR/review/merge cycle throughout the project so the learner becomes comfortable with it, not just in the first session.
+- **Teach PR reviews.** When you create a pull request, walk the learner through reviewing it before merging. Explain what to look for: changed files, the diff, and why the changes make sense. Never merge a PR without the learner's understanding and approval.
 
 ### 🔒 Pre-Commit Security Check
 Before every commit, scan staged files for secrets (API keys, passwords, tokens). If found:
