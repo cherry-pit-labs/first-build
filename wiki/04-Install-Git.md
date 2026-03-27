@@ -27,9 +27,13 @@ Imagine you're writing an essay and you save a new copy every time you make a bi
 winget install Git.Git
 ```
 
-**What's happening here:**
+<details open>
+<summary><strong>What's happening here</strong></summary>
+
 - `winget install` tells the Windows package manager to install a program
 - `Git.Git` is the unique identifier for Git in the winget catalog
+
+</details>
 
 </details>
 
@@ -41,8 +45,12 @@ Open Terminal and run:
 xcode-select --install
 ```
 
-**What's happening here:**
+<details open>
+<summary><strong>What's happening here</strong></summary>
+
 - `xcode-select --install` installs Apple's Command Line Tools, which includes Git
+
+</details>
 
 Follow the prompts. Alternatively, if you have [Homebrew](https://brew.sh/):
 ```bash
@@ -67,10 +75,14 @@ sudo dnf install git
 sudo pacman -S git
 ```
 
-**What's happening here:**
+<details open>
+<summary><strong>What's happening here</strong></summary>
+
 - `sudo` runs the command with administrator privileges
 - `apt update` refreshes the list of available packages
 - `apt install git` installs Git
+
+</details>
 
 </details>
 
@@ -110,11 +122,15 @@ Run these commands in your VS Code terminal, replacing the placeholder values wi
 git config --global user.name "Your Name"
 ```
 
-**What's happening here:**
+<details open>
+<summary><strong>What's happening here</strong></summary>
+
 - `git config` changes a Git setting
 - `--global` applies this setting to all repositories on your computer (not just one)
 - `user.name` is the setting name
 - `"Your Name"` is the value to set. **Replace this** with your actual name or GitHub username
+
+</details>
 
 ```bash
 git config --global user.email "123456789+yourusername@users.noreply.github.com"
@@ -139,10 +155,14 @@ Run this command in your VS Code terminal, replacing the email with your GitHub 
 ssh-keygen -t ed25519 -C "123456789+yourusername@users.noreply.github.com"
 ```
 
-**What's happening here:**
+<details open>
+<summary><strong>What's happening here</strong></summary>
+
 - `ssh-keygen` is the tool that creates SSH key pairs
 - `-t ed25519` specifies the type of key to create (Ed25519 is modern and secure)
 - `-C "..."` adds a comment (label) to the key so you can identify it later. **Replace** the email with your GitHub noreply email
+
+</details>
 
 The tool will walk you through a few prompts. Here's what to expect at each one:
 
@@ -191,9 +211,13 @@ Now you need to give GitHub your **public** key so it recognizes your computer.
    cat ~/.ssh/id_ed25519.pub
    ```
 
-   **What's happening here:**
+   <details open>
+   <summary><strong>What's happening here</strong></summary>
+
    - `cat` displays the contents of a file
    - `~/.ssh/id_ed25519.pub` is the path to your public key file
+
+   </details>
 
    You'll see one long line that looks like:
    ```
@@ -210,9 +234,13 @@ Now you need to give GitHub your **public** key so it recognizes your computer.
    pbcopy < ~/.ssh/id_ed25519.pub
    ```
 
-   **What's happening here:**
+   <details open>
+   <summary><strong>What's happening here</strong></summary>
+
    - `pbcopy` copies text to your clipboard
    - `< ~/.ssh/id_ed25519.pub` feeds the contents of the public key file into `pbcopy`
+
+   </details>
 
    This copies the key directly to your clipboard.
 
@@ -244,9 +272,13 @@ Back in your **VS Code terminal**, run:
 ssh -T git@github.com
 ```
 
-**What's happening here:**
+<details open>
+<summary><strong>What's happening here</strong></summary>
+
 - `ssh -T` tests the SSH connection without starting a full session
 - `git@github.com` is the address you're connecting to
+
+</details>
 
 If this is your first time connecting to GitHub via SSH, you'll see a warning like:
 ```
