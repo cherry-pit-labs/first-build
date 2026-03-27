@@ -34,9 +34,10 @@ Navigate to where you want to keep your projects. A common choice:
 cd ~/Documents
 ```
 
-**What's happening here:**
-- `cd` means "change directory" (move to a different folder)
-- `~/Documents` is a shortcut to your Documents folder. The `~` symbol means "my home folder"
+> [!NOTE]
+> **What's happening here:**
+> - `cd` means "change directory" (move to a different folder)
+> - `~/Documents` is a shortcut to your Documents folder. The `~` symbol means "my home folder"
 
 </details>
 
@@ -47,9 +48,10 @@ cd ~/Documents
 cd ~/projects
 ```
 
-**What's happening here:**
-- `cd` means "change directory" (move to a different folder)
-- `~/projects` is a folder in your home directory
+> [!NOTE]
+> **What's happening here:**
+> - `cd` means "change directory" (move to a different folder)
+> - `~/projects` is a folder in your home directory
 
 Create the folder first if it doesn't exist:
 ```bash
@@ -64,10 +66,11 @@ Now clone your repo. In the command below, **replace `YOUR_USERNAME`** with your
 git clone git@github.com:YOUR_USERNAME/first-build.git
 ```
 
-**What's happening here:**
-- `git clone` downloads a repository from the internet to your computer
-- `git@github.com:YOUR_USERNAME/first-build.git` is the SSH address of your repo (this is why we set up SSH keys earlier)
-- **Important:** Replace `YOUR_USERNAME` with your actual GitHub username. For example, if your username is `janedoe`, the command would be `git clone git@github.com:janedoe/first-build.git`
+> [!NOTE]
+> **What's happening here:**
+> - `git clone` downloads a repository from the internet to your computer
+> - `git@github.com:YOUR_USERNAME/first-build.git` is the SSH address of your repo (this is why we set up SSH keys earlier)
+> - **Important:** Replace `YOUR_USERNAME` with your actual GitHub username. For example, if your username is `janedoe`, the command would be `git clone git@github.com:janedoe/first-build.git`
 
 > **You'll be asked for your SSH passphrase.** This is the passphrase you created when generating your SSH key on the [Install Git](04-Install-Git) page. Type it in (you won't see characters as you type) and press Enter.
 
@@ -88,8 +91,9 @@ Now move into the project folder:
 cd first-build
 ```
 
-**What's happening here:**
-- `cd first-build` moves you into the newly downloaded project folder
+> [!NOTE]
+> **What's happening here:**
+> - `cd first-build` moves you into the newly downloaded project folder
 
 ## Step 3: Open the Project in VS Code
 
@@ -99,9 +103,10 @@ Since you're already in VS Code, run this command to open the project folder:
 code .
 ```
 
-**What's happening here:**
-- `code` launches VS Code
-- `.` means "the current directory" (the `first-build` folder you just moved into)
+> [!NOTE]
+> **What's happening here:**
+> - `code` launches VS Code
+> - `.` means "the current directory" (the `first-build` folder you just moved into)
 
 This will open a **new VS Code window** with the project files visible in the sidebar. You can close your old VS Code window.
 
@@ -120,9 +125,10 @@ In your **new VS Code window**, open the terminal if it isn't already open (`` C
 .\setup.ps1
 ```
 
-**What's happening here:**
-- `.\` means "in the current directory"
-- `setup.ps1` is the PowerShell verification script
+> [!NOTE]
+> **What's happening here:**
+> - `.\` means "in the current directory"
+> - `setup.ps1` is the PowerShell verification script
 
 > **If you get a permission error:** You may need to allow script execution. Run this first:
 > ```powershell
@@ -139,9 +145,10 @@ In your **new VS Code window**, open the terminal if it isn't already open (`` C
 ./setup.sh
 ```
 
-**What's happening here:**
-- `./` means "in the current directory"
-- `setup.sh` is the Bash verification script
+> [!NOTE]
+> **What's happening here:**
+> - `./` means "in the current directory"
+> - `setup.sh` is the Bash verification script
 
 </details>
 
