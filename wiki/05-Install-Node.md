@@ -25,10 +25,10 @@ Before installing fnm on Windows, you need to allow PowerShell to run scripts. B
    Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
    ```
 
-   **What's happening here:**
-   - `Set-ExecutionPolicy` changes which scripts PowerShell is allowed to run
-   - `-Scope CurrentUser` applies this setting only to your user account, not the whole system
-   - `-ExecutionPolicy RemoteSigned` allows scripts you write on your computer to run freely, while scripts downloaded from the internet must be signed by a trusted publisher
+   > **What's happening here:**
+   > - `Set-ExecutionPolicy` changes which scripts PowerShell is allowed to run
+   > - `-Scope CurrentUser` applies this setting only to your user account, not the whole system
+   > - `-ExecutionPolicy RemoteSigned` allows scripts you write on your computer to run freely, while scripts downloaded from the internet must be signed by a trusted publisher
 
 3. If prompted to confirm, type `Y` and press Enter
 4. Close this admin terminal. You won't need admin privileges for the remaining steps.
@@ -48,9 +48,9 @@ Open a regular (non-admin) PowerShell or terminal and run:
 winget install Schniz.fnm
 ```
 
-**What's happening here:**
-- `winget install` tells the Windows package manager to install a program
-- `Schniz.fnm` is the unique identifier for fnm in the winget catalog
+> **What's happening here:**
+> - `winget install` tells the Windows package manager to install a program
+> - `Schniz.fnm` is the unique identifier for fnm in the winget catalog
 
 Next, **set up your shell profile.** This step tells PowerShell to activate fnm every time you open a terminal:
 
@@ -59,9 +59,9 @@ if (!(Test-Path $PROFILE)) { New-Item -Path $PROFILE -Force }
 Add-Content -Path $PROFILE -Value 'fnm env --use-on-cd --shell powershell | Out-String | Invoke-Expression'
 ```
 
-**What's happening here:**
-- The first line creates your PowerShell profile file if it doesn't already exist
-- The second line adds a command to that profile file. Every time you open a new terminal, this command activates fnm so you can use Node.js
+> **What's happening here:**
+> - The first line creates your PowerShell profile file if it doesn't already exist
+> - The second line adds a command to that profile file. Every time you open a new terminal, this command activates fnm so you can use Node.js
 
 **What's a shell profile?** It's a script that runs automatically every time you open a new terminal window. Think of it like startup settings for your command line. The file lives at `$PROFILE`. You can type that in PowerShell to see the exact path.
 
@@ -88,11 +88,11 @@ Install fnm with the install script:
 curl -fsSL https://fnm.vercel.app/install | bash
 ```
 
-**What's happening here:**
-- `curl` downloads content from a URL
-- `-fsSL` is a set of flags: fail silently on errors, show errors, follow redirects, and keep it clean
-- `https://fnm.vercel.app/install` is the URL of the fnm install script
-- `| bash` passes the downloaded script to Bash to run it
+> **What's happening here:**
+> - `curl` downloads content from a URL
+> - `-fsSL` is a set of flags: fail silently on errors, show errors, follow redirects, and keep it clean
+> - `https://fnm.vercel.app/install` is the URL of the fnm install script
+> - `| bash` passes the downloaded script to Bash to run it
 
 ### 🔒 Security Note
 
@@ -120,9 +120,9 @@ fnm install --lts
 fnm use lts-latest
 ```
 
-**What's happening here:**
-- `fnm install --lts` downloads and installs the latest LTS version of Node.js
-- `fnm use lts-latest` tells fnm to activate that version so you can use it
+> **What's happening here:**
+> - `fnm install --lts` downloads and installs the latest LTS version of Node.js
+> - `fnm use lts-latest` tells fnm to activate that version so you can use it
 
 You should see output like:
 ```

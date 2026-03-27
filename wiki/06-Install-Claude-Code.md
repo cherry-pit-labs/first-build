@@ -14,10 +14,10 @@ Run this command:
 npm install -g @anthropic-ai/claude-code
 ```
 
-**What's happening here:**
-- `npm install` tells npm (Node Package Manager) to install a package
-- `-g` means "globally," making it available everywhere on your computer, not just in one project folder
-- `@anthropic-ai/claude-code` is the name of the package to install. The `@anthropic-ai/` part is the organization that publishes it
+> **What's happening here:**
+> - `npm install` tells npm (Node Package Manager) to install a package
+> - `-g` means "globally," making it available everywhere on your computer, not just in one project folder
+> - `@anthropic-ai/claude-code` is the name of the package to install. The `@anthropic-ai/` part is the organization that publishes it
 
 This may take a minute. You'll see progress output ending with something like:
 ```

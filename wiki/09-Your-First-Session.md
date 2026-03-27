@@ -57,8 +57,8 @@ Type:
 claude
 ```
 
-**What's happening here:**
-- `claude` launches Claude Code in the current directory
+> **What's happening here:**
+> - `claude` launches Claude Code in the current directory
 
 Claude Code will then ask you to authenticate with your Anthropic account. Follow the prompts. It will typically open a browser window where you log in.
 
