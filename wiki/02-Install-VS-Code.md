@@ -23,10 +23,14 @@ VS Code (Visual Studio Code) is a **code editor**, the program you'll write code
 winget install Microsoft.VisualStudioCode
 ```
 
-**What's happening here:**
+<details open>
+<summary><strong>What's happening here</strong></summary>
+
 - `winget` is Windows' built-in package manager, a way to install programs from the command line instead of downloading installers from websites
 - `install` tells winget to install a program
 - `Microsoft.VisualStudioCode` is the unique identifier for VS Code in the winget catalog
+
+</details>
 
 </details>
 
@@ -46,10 +50,14 @@ winget install Microsoft.VisualStudioCode
 brew install --cask visual-studio-code
 ```
 
-**What's happening here:**
+<details open>
+<summary><strong>What's happening here</strong></summary>
+
 - `brew` is the Homebrew package manager for Mac
 - `install --cask` installs a graphical application (as opposed to a command-line tool)
 - `visual-studio-code` is the package name for VS Code
+
+</details>
 
 This requires [Homebrew](https://brew.sh/). If you don't have it, use the GUI method above.
 
@@ -63,11 +71,15 @@ This requires [Homebrew](https://brew.sh/). If you don't have it, use the GUI me
 sudo snap install code --classic
 ```
 
-**What's happening here:**
+<details open>
+<summary><strong>What's happening here</strong></summary>
+
 - `sudo` runs the command with administrator privileges (it will ask for your password)
 - `snap install` installs a program using the Snap package manager
 - `code` is the package name for VS Code
 - `--classic` allows VS Code full access to your system (needed for a code editor to work properly)
+
+</details>
 
 Or download the `.deb`/`.rpm` package from [code.visualstudio.com](https://code.visualstudio.com/) and install it with your package manager.
 
@@ -121,9 +133,13 @@ code --install-extension eamodio.gitlens
 code --install-extension esbenp.prettier-vscode
 ```
 
-**What's happening here:**
+<details open>
+<summary><strong>What's happening here</strong></summary>
+
 - `code` is the VS Code command-line tool
 - `--install-extension` tells it to install an extension by its unique identifier
+
+</details>
 
 > **Note:** You may install additional extensions later depending on your project (like the Python extension for Python projects). Claude Code will recommend them when the time comes.
 
