@@ -55,7 +55,7 @@ fi
 if ls ~/.ssh/id_* &>/dev/null; then
     check "SSH key" 0 "Found"
 else
-    check "SSH key" 1 "Not found. See wiki page '03-Install-Git' for setup instructions."
+    check "SSH key" 1 "Not found. See wiki page '04-Install-Git' for setup instructions."
 fi
 
 # 5. Node.js installed (>= 18)

@@ -36,7 +36,7 @@ claude --version
 
 You should see something like:
 ```
-1.0.12 (Claude Code)
+2.1.177 (Claude Code)
 ```
 
 If you get "command not found," close and reopen your terminal, then try again.

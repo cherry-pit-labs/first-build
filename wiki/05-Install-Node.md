@@ -146,9 +146,9 @@ fnm use lts-latest
 
 You should see output like:
 ```
-Installing Node v20.11.0 (x64)
-Done installing Node v20.11.0 (x64)
-Using Node v20.11.0
+Installing Node v22.22.2 (x64)
+Done installing Node v22.22.2 (x64)
+Using Node v22.22.2
 ```
 
 These commands are the same on Windows, Mac, and Linux.
@@ -164,7 +164,7 @@ node --version
 ```
 You should see something like:
 ```
-v20.11.0
+v22.22.2
 ```
 As long as it's version 18 or above, you're good.
 
@@ -173,7 +173,7 @@ npm --version
 ```
 You should see something like:
 ```
-10.2.3
+10.9.7
 ```
 
 ## What's npm?
