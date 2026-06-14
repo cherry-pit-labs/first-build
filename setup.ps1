@@ -78,7 +78,7 @@ if ($sshKeys) {
     Test-Check -Label "SSH key" -Success $true -Message "Found"
 }
 else {
-    Test-Check -Label "SSH key" -Success $false -Message "Not found. See wiki page '03-Install-Git' for setup instructions."
+    Test-Check -Label "SSH key" -Success $false -Message "Not found. See wiki page '04-Install-Git' for setup instructions."
 }
 
 # 5. Node.js installed (>= 18)

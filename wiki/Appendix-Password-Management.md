@@ -26,7 +26,7 @@ Choose a **strong master password**. This is the one password you need to memori
 ### 2. Install the browser extension
 
 Install the Bitwarden extension for your browser:
-- **Chrome/Edge:** [Chrome Web Store](https://chrome.google.com/webstore/detail/bitwarden/nngceckbapebfimnlniiiahkandclblb)
+- **Chrome/Edge:** [Chrome Web Store](https://chromewebstore.google.com/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
 - **Firefox:** [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
 - **Safari:** Available in the Mac App Store
 

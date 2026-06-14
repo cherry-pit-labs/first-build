@@ -184,9 +184,9 @@ The script will check for Git, Node.js, npm, Claude Code, and your SSH key, prin
 ✅ Git user.name - Jane Doe
 ✅ Git user.email - jane@example.com
 ✅ SSH key - Found
-✅ Node.js - v20.11.0
-✅ npm - 10.2.3
-✅ Claude Code - 1.0.12 (Claude Code)
+✅ Node.js - v22.22.2
+✅ npm - 10.9.7
+✅ Claude Code - 2.1.177 (Claude Code)
 ✅ Git repo - Detected
 
 -----------------------------------------
